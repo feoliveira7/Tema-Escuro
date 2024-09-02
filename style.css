@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(255, 255, 255);
+    transition: 0.27s;
+}
+
+.topbar{
+    display: flex;
+    justify-content: right;
+}
+
+.themeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+    transition: 0.27s;
+}
+
+.imgThemeButton{
+    width: 30px;
+    height: 30px;
+    transition: 0.27s;
+}
+
+.divDolar{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    box-shadow: 0px 0px 16px rgba(77, 77, 77, 0.247);
+    transition: 0.27s;
+}
+
+.titulo1{
+font-family: Inter;
+font-size: 27px;
+margin-bottom: 35px;
+color: rgb(25, 25, 25);
+transition: 0.27s;
+
+}
+
+.label1{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    transition: 0.27s;
+}
+
+.label2{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    transition: 0.27s;
+}
+
+.label3{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    transition: 0.27s;
+}
+
+#valorDolar{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 550;
+    border: 2px solid rgba(131, 131, 131, 0.247);
+    width: 220px;
+    height: 45px;
+    cursor: text;
+    transition: 0.27s;
+}
+
+#menorDolar{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 550;
+    border: 2px solid rgba(131, 131, 131, 0.247);
+    width: 220px;
+    height: 45px;
+    cursor: text;
+    transition: 0.27s;
+}
+
+#maiorDolar{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 550;
+    border: 2px solid rgba(131, 131, 131, 0.247);
+    width: 220px;
+    height: 45px;
+    cursor: text;
+    transition: 0.27s;
+}
